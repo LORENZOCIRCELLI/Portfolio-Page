@@ -9,25 +9,25 @@ const projects = [
 		id: 1,
 		title: 'E-Commerce Platform',
 		description: 'A modern e-commerce platform built with Spring Framework',
-		image: '/code.jpg',
+		image: '/ecommerce.jpg',
 	},
 	{
 		id: 2,
 		title: 'Subnautica PDA+',
 		description: 'Aplicativo de linha de comando para servir como assistente para Subnautica',
-		image: '/laptop.jpg',
+		image: '/subnautica.jpg',
 	},
 	{
 		id: 3,
 		title: 'Pelican Planner',
 		description: 'Aplicativo de linha de comando para auxiliar jogadores de Stardew Valley',
-		image: '/code.jpg',
+		image: '/stardew.jpg',
 	},
 	{
 		id: 4,
 		title: 'MicroCheckout',
 		description: 'Projeto com Sistemas Embarcados em C++ como um simulador real de um caixa de mercado para autoatendimento',
-		image: '/laptop.jpg',
+		image: '/checkout.jpg',
 	},
 ];
 
