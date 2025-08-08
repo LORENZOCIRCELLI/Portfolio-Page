@@ -10,24 +10,29 @@ const projects = [
 		title: 'E-Commerce Platform',
 		description: 'A modern e-commerce platform built with Spring Framework',
 		image: '/ecommerce.jpg',
+		githubUrl: 'https://github.com/LORENZOCIRCELLI/Ecommerce-Project'
 	},
 	{
 		id: 2,
-		title: 'Subnautica PDA+',
+		title: 'PDA+',
 		description: 'Aplicativo de linha de comando para servir como assistente para Subnautica',
 		image: '/subnautica.jpg',
+		githubUrl: 'https://github.com/LORENZOCIRCELLI/SubnauticaPDAPlus'
 	},
 	{
 		id: 3,
 		title: 'Pelican Planner',
 		description: 'Aplicativo de linha de comando para auxiliar jogadores de Stardew Valley',
 		image: '/stardew.jpg',
+		githubUrl: 'https://github.com/LORENZOCIRCELLI/PelicanPlanner'
 	},
 	{
 		id: 4,
 		title: 'MicroCheckout',
 		description: 'Projeto com Sistemas Embarcados em C++ como um simulador real de um caixa de mercado para autoatendimento',
 		image: '/checkout.jpg',
+		githubUrl: 'https://github.com/LORENZOCIRCELLI/MicroCheckout'
+
 	},
 ];
 
@@ -61,11 +66,21 @@ export default function ProjectsSection() {
 							<h3 className="text-xl font-bold mb-2">{project.title}</h3>
 							<p className="text-gray-300 mb-4">{project.description}</p>
 							<div className="flex gap-4">
-								<Link href="#" className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors">
-									View Project
-								</Link>
-								<Link href="#" className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors">
-									GitHub
+								{/*<Link
+								href={project.liveUrl || '#'}
+								className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
+								target="_blank"
+								rel="noopener noreferrer"
+								>
+								View Project
+								</Link>*/}
+								<Link
+								href={project.githubUrl || '#'}
+								className="text-sm px-4 py-2 bg-white/10 hover:bg-white/20 rounded-full transition-colors"
+								target="_blank"
+								rel="noopener noreferrer"
+								>
+								GitHub
 								</Link>
 							</div>
 						</div>
