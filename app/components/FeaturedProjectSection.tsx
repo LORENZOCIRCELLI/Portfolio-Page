@@ -15,8 +15,12 @@ export default function FeaturedProjectSection() {
       viewport={{ once: true }}
       className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900/10 to-blue-900/10 py-20"
     >
-      <motion.div whileHover={{ scale: 1.02 }} transition={{ duration: 0.3 }}>
-        <Card className="max-w-5xl w-full shadow-xl rounded-2xl overflow-hidden bg-white/90 dark:bg-zinc-900">
+      <motion.div
+        whileHover={{ scale: 1.02 }}
+        transition={{ duration: 0.3 }}
+        className="w-full max-w-5xl mx-4 sm:mx-6"
+      >
+        <Card className="shadow-xl rounded-2xl overflow-hidden bg-white/90 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700">
           <CardContent className="grid md:grid-cols-2 gap-8 p-8">
             
             {/* Imagem */}
