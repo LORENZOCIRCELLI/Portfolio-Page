@@ -13,7 +13,7 @@ export default function FeaturedProjectSection() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
-      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-900/10 to-blue-900/10 py-20"
+      className="w-full flex items-center justify-center bg-gradient-to-b from-purple-900/20 to-black py-20"
     >
       <motion.div
         whileHover={{ scale: 1.02 }}

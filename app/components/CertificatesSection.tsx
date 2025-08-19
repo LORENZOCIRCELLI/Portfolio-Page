@@ -15,7 +15,7 @@ export default function CertificatesSection() {
   ];
 
   return (
-    <section className="py-20 px-6 bg-gradient-to-b from-black to-purple-900/20">
+    <section className="py-20 px-6 bg-gradient-to-b from-purple-900/20 to-black">
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
