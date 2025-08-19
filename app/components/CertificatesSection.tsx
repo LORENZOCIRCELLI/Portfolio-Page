@@ -5,14 +5,57 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 export default function CertificatesSection() {
-  const certificates = [
-    {
-      title: "Javascript: Ao Avançado",
-      issuer: "Udemy",
-      year: "2025",
-      pdf: "/Javascript.pdf",
-    },
-  ];
+const certificates = [
+  {
+    title: "JavaScript: Do Básico ao Avançado",
+    issuer: "Udemy",
+    year: "2025",
+    pdf: "/Javascript.pdf",
+  },
+  {
+    title: "Inteligência Artificial, Informação e Ética",
+    issuer: "USP",
+    year: "2025",
+    pdf: "/CertificadoUSPIA.pdf",
+  },
+  {
+    title: "XVII Escola do Supercomputador Santos Dumont",
+    issuer: "LNCC",
+    year: "2025",
+    pdf: "/PV2025_id1.pdf",
+  },
+  {
+    title: "Profiling e Otimização de Códigos em C/C++",
+    issuer: "LNCC",
+    year: "2025",
+    pdf: "/PV2025_id7.pdf",
+  },
+  {
+    title: "Introdução à Programação de GPU com CUDA",
+    issuer: "LNCC",
+    year: "2025",
+    pdf: "/PV2025_id3.pdf",
+  },
+  {
+    title: "Introdução a Containers para HPC/IA",
+    issuer: "LNCC",
+    year: "2025",
+    pdf: "/PV2025_id2.pdf",
+  },
+  {
+    title: "Otimização de Aplicações Paralelas em CPU e GPU",
+    issuer: "LNCC",
+    year: "2025",
+    pdf: "/PV2025_id4.pdf",
+  },
+  {
+    title: "Introdução à Computação Quântica",
+    issuer: "LNCC",
+    year: "2025",
+    pdf: "/PV2025_id6.pdf",
+  },
+];
+
 
   return (
     <section className="py-20 px-6 bg-gradient-to-b from-purple-900/20 to-black">
