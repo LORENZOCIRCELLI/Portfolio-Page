@@ -81,7 +81,7 @@ export default function HeroSection() {
           initial={{ y: 50 }}
           animate={{ y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-4xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600"
+          className="text-4xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-white"
         >
           Lorenzo Calabrese Circelli
         </motion.h1>
@@ -91,7 +91,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-lg md:text-xl text-gray-300 mb-8 px-4"
         >
-          Estudante de Engenharia da Computação e Desenvolvedor Full-Stack
+          Engenharia da Computação | Desenvolvedor Full-Stack | Machine Learning
         </motion.p>
       </div>
 

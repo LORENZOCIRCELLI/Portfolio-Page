@@ -8,10 +8,10 @@ import Link from "next/link";
 const projects = [
 	{
 		id: 1,
-		title: 'E-Commerce Platform',
-		description: 'Plataforma Moderna de E-Commerce desenvolvida com Spring Boot + React',
-		image: '/ecommerce.jpg',
-		githubUrl: 'https://github.com/LORENZOCIRCELLI/Ecommerce-Project'
+		title: 'Foundation Bank',
+		description: 'Plataforma de Simulação de Transações Bancarias',
+		image: '/bank.png',
+		githubUrl: 'https://github.com/LORENZOCIRCELLI/FoundationBank'
 	},
 	{
 		id: 2,

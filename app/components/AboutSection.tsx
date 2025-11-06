@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function AboutSection() {
   return (
     <section className="py-12 md:py-20 bg-gradient-to-b from-black to-purple-900/20">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4 flex flex-col items-center justify-center relative overflow-hidden">
         
         {/* Título centralizado de verdade */}
         <motion.h1
@@ -21,7 +21,7 @@ export default function AboutSection() {
         </motion.h1>
 
         {/* Grid abaixo do título */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div className="gap-12 items-center lg:flex mx-20 flex-col">
           
           {/* Texto */}
           <motion.div
@@ -30,12 +30,12 @@ export default function AboutSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 leading-relaxed text-center">
             Sou <span className="text-blue-400 font-semibold">Lorenzo Calabrese Circelli</span>, estudante de Engenharia da Computação e desenvolvedor apaixonado por tecnologia.
             Embora ainda não tenha experiência formal no mercado de trabalho, dedico grande atenção aos meus projetos pessoais, que me permitem explorar novas ideias e aprofundar minhas habilidades.
             Tenho experiência em desenvolvimento back-end usando Java, Spring Boot e Node.js, além de atuar em projetos em C e C++ voltados para sistemas embarcados e programação competitiva.
           </p>
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 leading-relaxed text-center mb-10">
             Meus projetos, listados abaixo, demonstram meu conhecimento e dedicação. Você também pode conferir meus perfis em plataformas de programação competitiva para ver minha prática em desafios de C++ e algoritmos avançados.
           </p>
          </motion.div>

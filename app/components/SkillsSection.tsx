@@ -3,14 +3,12 @@
 import { motion } from 'framer-motion';
 
 const skills = [
-  'C/C++',
   'Java',
-  'Spring Boot',
-  'Javascript',
-  'Node.JS',
-  'Express',
+  'Spring Framework',
   'React',
-  '*React Native',
+  'Python',
+  'Pytorch',
+  'C/C++'
 ];
 
 export default function SkillsSection() {
@@ -42,16 +40,6 @@ export default function SkillsSection() {
             </motion.div>
           ))}
         </div>
-
-        <motion.p
-          initial={{ y: 50, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-lg md:text-xl text-gray-300 mt-8 text-center"
-        >
-          *Em estudo inicial da linguagem
-        </motion.p>
       </div>
     </section>
   );
