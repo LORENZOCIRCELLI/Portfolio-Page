@@ -4,28 +4,33 @@ import { useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { title } from "process";
+import { image } from "framer-motion/client";
 
 const projects = [
 	{
-		id: 1,
+    id: 1,
+    title: 'Repositório Java',
+    description: 'Repositório voltado para meu desenvolvimento na linguagem Java',
+    image: '/java.jpg',
+    githubUrl: 'https://github.com/LORENZOCIRCELLI/Java'
+
+	},
+	{
+    id: 2,
 		title: 'Foundation Bank',
-		description: 'Plataforma de Simulação de Transações Bancarias',
+		description: 'Plataforma de Simulação de Transações Bancarias em andamento',
 		image: '/bank.png',
 		githubUrl: 'https://github.com/LORENZOCIRCELLI/FoundationBank'
+
 	},
 	{
-		id: 2,
+    id: 3,
 		title: 'PDA+',
-		description: 'Aplicativo de linha de comando para servir como assistente para Subnautica',
+		description: 'Aplicativo de Desktop com JavaFX para auxiliar no jogo Subnautica',
 		image: '/subnautica.jpg',
 		githubUrl: 'https://github.com/LORENZOCIRCELLI/SubnauticaPDAPlus'
-	},
-	{
-		id: 3,
-		title: 'Pelican Planner',
-		description: 'Aplicativo de linha de comando para auxiliar jogadores de Stardew Valley',
-		image: '/stardew.jpg',
-		githubUrl: 'https://github.com/LORENZOCIRCELLI/PelicanPlanner'
+
 	},
 	{
 		id: 4,
@@ -34,6 +39,14 @@ const projects = [
 		image: '/checkout.jpg',
 		githubUrl: 'https://github.com/LORENZOCIRCELLI/MicroCheckout'
   },
+  {
+		id: 5,
+		title: 'Pelican Planner',
+		description: 'Aplicativo de linha de comando para auxiliar jogadores de Stardew Valley',
+		image: '/stardew.jpg',
+		githubUrl: 'https://github.com/LORENZOCIRCELLI/PelicanPlanner'
+
+  }
 ];
 
 export default function ProjectsSection() {

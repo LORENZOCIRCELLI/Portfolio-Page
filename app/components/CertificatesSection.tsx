@@ -14,10 +14,11 @@ export default function CertificatesSection() {
   const certificates = [
   {
     id:1,
-    title: "JavaScript/ECMA: Do Básico ao Avançado",
+    title: "Java Completo: Programação Orientada a Objetos",
     issuer: "Udemy",
     year: "2025",
-    pdf: "/Javascript.pdf",
+    pdf: "/Java.pdf"
+
   },
   {
     id:2,
@@ -35,10 +36,11 @@ export default function CertificatesSection() {
   },
   {
     id:4,
-    title: "Profiling e Otimização de Códigos em C/C++",
-    issuer: "LNCC",
+    title: "JavaScript/ECMA: Do Básico ao Avançado",
+    issuer: "Udemy",
     year: "2025",
-    pdf: "/PV2025_id7.pdf",
+    pdf: "/Javascript.pdf",
+
   },
   {
     id:5,
@@ -68,6 +70,13 @@ export default function CertificatesSection() {
     year: "2025",
     pdf: "/PV2025_id6.pdf",
   },
+  {
+    id:9,
+    title: "Profiling e Otimização de Códigos em C/C++",
+    issuer: "LNCC",
+    year: "2025",
+    pdf: "/PV2025_id7.pdf",
+  }
 ];
 
 

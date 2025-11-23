@@ -13,7 +13,7 @@ export default function MinimalModernPortfolio() {
 		<div className="min-h-screen bg-black text-white">
 			<HeroSection />
 			<AboutSection />
-			<FeaturedProjectSection/>
+			{/*<FeaturedProjectSection/>*/}
 			<ProjectsSection />
 			<SkillsSection />
 			<CertificatesSection />
