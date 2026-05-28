@@ -357,14 +357,14 @@ export default function App() {
               Contato
             </p>
 
-            <div className="space-y-3">
-              <p className="text-lg font-medium">
-                https://github.com/LORENZOCIRCELLI
-              </p>
+            <div className="space-y-3 flex flex-col text-bold text-lg text-shadow-zinc-600 tracking-[0.1em]">
+              <a href="https://github.com/LORENZOCIRCELLI" className="text-lg">
+                Github
+              </a>
 
-              <p className="text-lg font-medium">
-                https://www.linkedin.com/in/lorenzocalabresecircelli/
-              </p>
+              <a href="https://www.linkedin.com/in/lorenzocalabresecircelli/" className="text-lg">
+                LinkedIn
+              </a>
             </div>
 
           </div>
