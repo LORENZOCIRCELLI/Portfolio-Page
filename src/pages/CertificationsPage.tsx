@@ -43,7 +43,7 @@ function CertificationsPage() {
             className="group w-full flex items-center p-4 transition-all duration-300 hover:bg-black hover:text-white"
         >
             <p className="font-bold">
-            Home
+            Voltar
             </p>
         </a>
 
