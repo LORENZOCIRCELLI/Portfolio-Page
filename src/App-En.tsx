@@ -5,14 +5,15 @@ export default function App() {
   return (
     <div className="min-h-screen w-full bg-white flex items-center justify-center p-10">
       <div className="w-300 max-w-full flex flex-col">
-        {/* Cabecalho */}
+
+        {/* Header */}
         <section className="border-8 border-black p-12 md:p-16">
 
           <div className="flex flex-col gap-4">
             <div className="flex items-end justify-end">
               <p className="text-sm text-blue-900 font-bold">
-                <Link to="/en" className="hover:underline">
-                  EN
+                <Link to="/" className="hover:underline">
+                  PT
                 </Link>
               </p>
             </div>
@@ -34,23 +35,24 @@ export default function App() {
 
             <div className="ml-12">
               <p className="uppercase tracking-[0.3em] text-sm text-zinc-700">
-                Estudante de Engenharia da Computação • Pesquisador
+                Computer Engineering Student • Researcher
               </p>
             </div>
+
             <div className="ml-12">
               <p className="text-sm text-zinc-700">
                 <a href="https://lattes.cnpq.br/9066461369543994" target="_blank" rel="noopener noreferrer" className="hover:underline">
                   Lattes
                 </a>
-                  &nbsp;&nbsp;•&nbsp;&nbsp;    
+                &nbsp;&nbsp;•&nbsp;&nbsp;
                 <a href="https://github.com/LORENZOCIRCELLI" target="_blank" rel="noopener noreferrer" className="hover:underline">
                   GitHub
                 </a>
               </p>
             </div>
-
           </div>
         </section>
+
         {/* GBI */}
         <section className="border-x-8 border-b-8 border-black">
           <a
@@ -60,44 +62,50 @@ export default function App() {
             className="group flex flex-col items-center justify-between p-6 md:p-10 transition-all duration-300 hover:bg-black hover:text-white"
           >
             <h3 className="text-xs md:text-sm uppercase tracking-[0.2em] text-center flex-1">
-              Membro do Grupo de Bioinformática da Faculdade de Medicina de Ribeirão Preto (FMRP-USP)
+              Member of the Bioinformatics Group at the Ribeirão Preto Medical School (FMRP-USP)
             </h3>
+
             <p className="text-xs mt-3 text-justify text-zinc-800">
-              Departamento de Genética
+              Genetics Department
             </p>
           </a>
-        </section>      
-        {/* Sobre e Projetos Selecionados */}
+        </section>
+
+        {/* About and Selected Projects */}
         <section className="flex flex-col md:flex-row">
 
           <div className="w-full md:w-1/2 border-l-8 border-r-4 border-b-8 border-black p-10 md:p-14">
 
             <div className="mb-8">
               <p className="text-xs uppercase tracking-[0.4em] text-zinc-500">
-                Sobre
+                About
               </p>
             </div>
 
-            <p className="text-lg leading-relaxed  text-zinc-800">
-              Estudante e Pesquisador de Engenharia da Computação: nas áreas de scientific machine learning (SciML), bioinformática estrutural e computação de alto desempenho (HPC). 
+            <p className="text-lg leading-relaxed text-zinc-800">
+              Computer Engineering student and researcher in the areas of scientific machine learning (SciML), structural bioinformatics, and high-performance computing (HPC).
             </p>
-          <div className="mb-8 mt-8">
+
+            <div className="mb-8 mt-8">
               <p className="text-xs uppercase tracking-[0.4em] text-zinc-500">
-                Desenvolvimento
+                Development
               </p>
             </div>
 
             <p className="text-lg leading-relaxed text-zinc-800">
-              Pesquisas voltadas para modelagem computacional aplicada à saúde, incluindo estudos sobre arboviroses, genética estrutural e análise de proteínas baseada em dados laboratoriais e simulações computacionais.            </p>
-            <br></br>
-
-            <p className="text-lg leading-relaxed  text-zinc-800">
-              Arquiteturas avançadas de aprendizado profundo para aplicações científicas e sistemas complexos, integrando redes neurais, modelagem matemática e computação de alto desempenho.
+              Research focused on computational modeling applied to health, including studies on arboviruses, structural genetics, and protein analysis based on laboratory data and computational simulations.
             </p>
-            <br></br>
+
+            <br />
 
             <p className="text-lg leading-relaxed text-zinc-800">
-              Tecnologias educacionais voltadas para sustentabilidade ambiental.
+              Advanced deep learning architectures for scientific applications and complex systems, integrating neural networks, mathematical modeling, and high-performance computing.
+            </p>
+
+            <br />
+
+            <p className="text-lg leading-relaxed text-zinc-800">
+              Educational technologies focused on environmental sustainability.
             </p>
 
           </div>
@@ -106,7 +114,7 @@ export default function App() {
 
             <div className="mb-8">
               <p className="text-xs uppercase tracking-[0.4em] text-zinc-500">
-                Projetos Selecionados
+                Selected Projects
               </p>
             </div>
 
@@ -114,19 +122,17 @@ export default function App() {
 
               <div className="group border-b border-black py-5 cursor-pointer transition-all duration-300 hover:bg-black hover:text-white px-4 -mx-4">
                 <h3 className="text-2xl font-bold">
-                  Guardiões do Planeta
+                  Guardians of the Planet
                 </h3>
-
                 <p className="text-sm opacity-70 mt-1">
-                  Game de Sustentabilidade Ambiental
+                  Environmental Sustainability Game
                 </p>
               </div>
 
               <div className="group border-b border-black py-5 cursor-pointer transition-all duration-300 hover:bg-black hover:text-white px-4 -mx-4">
                 <h3 className="text-2xl font-bold">
-                  Estação Metereológica IoT
+                  IoT Weather Station
                 </h3>
-
                 <p className="text-sm opacity-70 mt-1">
                   Embedded systems with IoT and real-time monitoring
                 </p>
@@ -136,7 +142,6 @@ export default function App() {
                 <h3 className="text-2xl font-bold">
                   Banking System API
                 </h3>
-
                 <p className="text-sm opacity-70 mt-1">
                   Spring Boot backend with authentication and roles
                 </p>
@@ -146,37 +151,32 @@ export default function App() {
                 <h3 className="text-2xl font-bold">
                   Arduino Purchase System
                 </h3>
-
                 <p className="text-sm opacity-70 mt-1">
                   RFID, LCD and embedded interaction simulation
                 </p>
               </div>
-              {/*              
-              <div className="group py-5 cursor-pointer transition-all duration-300 bg-white text-black border-4 hover:bg-black hover:text-white px-4 -mx-4 mt-8">
-                <h3 className="text-2xl font-bold text-center">
-                  Ver Todos os Projetos
-                </h3>
-              </div>
-              */}
+
             </div>
           </div>
         </section>
-        {/* Inglês */}
+
+        {/* English */}
         <section className="border-x-8 border-b-8 border-black">
           <div className="flex items-center justify-center p-4 md:p-6 transition-all duration-300 hover:bg-black hover:text-white">
-            
+
             <h3 className="text-xs uppercase tracking-[0.3em] text-center">
-              Inglês fluente (leitura, escrita e conversação)
+              Fluent English (reading, writing, and speaking)
             </h3>
 
           </div>
         </section>
-        {/* Interesses */}
+
+        {/* Research Interests */}
         <section className="border-x-8 border-b-8 border-black p-10 md:p-14">
 
           <div className="mb-10">
             <p className="text-xs uppercase tracking-[0.4em] text-zinc-500">
-              Interesses de Pesquisa
+              Research Interests
             </p>
           </div>
 
@@ -184,54 +184,46 @@ export default function App() {
 
             <div>
               <h3 className="text-2xl font-bold mb-3">
-                Aprendizado de Máquina Científico
+                Scientific Machine Learning
               </h3>
-
               <p className="leading-relaxed text-zinc-700">
-                Desenvolvimento e estudo de arquiteturas avançadas
-                de redes neurais aplicadas à modelagem científica,
-                sistemas complexos e análise computacional de dados.
+                Development and study of advanced neural network architectures applied to scientific modeling, complex systems, and computational data analysis.
               </p>
             </div>
 
             <div>
               <h3 className="text-2xl font-bold mb-3">
-                Proteômica Computacional
+                Computational Proteomics
               </h3>
-
               <p className="leading-relaxed text-zinc-700">
-                Pesquisa em bioinformática estrutural, análise de
-                proteínas, genética computacional e modelagem molecular
-                aplicada a pesquisas farmacológicas.
+                Research in structural bioinformatics, protein analysis, computational genetics, and molecular modeling applied to pharmaceutical research.
               </p>
             </div>
 
             <div>
               <h3 className="text-2xl font-bold mb-3">
-                Computação de Alto Desempenho (HPC)
+                High-Performance Computing (HPC)
               </h3>
-
               <p className="leading-relaxed text-zinc-700">
-                Computação paralela e infraestrutura
-                de alto desempenho para simulações computacionais,
-                processamento científico e treinamento de modelos.
+                Parallel computing and high-performance infrastructure for scientific simulations, data processing, and model training.
               </p>
             </div>
 
           </div>
 
         </section>
-        {/* Projetos Centrais */}
+
+        {/* Core Projects */}
         <section className="border-x-8 border-b-8 border-black">
 
           <div className="p-10 md:p-14 border-b-8 border-black">
 
             <p className="text-xs uppercase tracking-[0.4em] text-zinc-500 mb-6">
-              Projetos Majoritários
+              Major Projects
             </p>
 
             <h2 className="text-4xl md:text-5xl font-black leading-tight">
-              Projetos Centrais
+              Core Projects
             </h2>
 
           </div>
@@ -246,11 +238,11 @@ export default function App() {
               >
                 <div>
                   <h3 className="text-2xl font-bold">
-                    Plataforma de SciML para Simulação de Sistemas Biológicos
+                    SciML Platform for Biological Systems Simulation
                   </h3>
 
                   <p className="mt-2 text-zinc-600">
-                    Plataforma que cria modelos híbridos (físico + neural) para simular sistemas biológicos complexos
+                    Platform that builds hybrid (physics + neural) models to simulate complex biological systems
                   </p>
                 </div>
 
@@ -270,11 +262,11 @@ export default function App() {
               >
                 <div>
                   <h3 className="text-2xl font-bold">
-                    Motor Computacional Distribuido em Nuvem
+                    Distributed Cloud Computational Engine
                   </h3>
 
                   <p className="mt-2 text-zinc-600">
-                    Plataforma de Simulação de Partículas baseada em Computação de Alto Desempenho em Nuvem
+                    Particle simulation platform based on high-performance cloud computing
                   </p>
                 </div>
 
@@ -288,19 +280,19 @@ export default function App() {
 
           </div>
 
-
         </section>
-        {/* Formações */}        
+
+        {/* Education */}
         <section className="border-x-8 border-b-8 border-black">
 
           <div className="p-10 md:p-14 border-b-8 border-black">
 
             <p className="text-xs uppercase tracking-[0.4em] text-zinc-500 mb-6">
-              Certificações
+              Certifications
             </p>
 
             <h2 className="text-4xl md:text-5xl font-black leading-tight">
-              Formação e Cursos Relevantes
+              Education and Relevant Courses
             </h2>
 
           </div>
@@ -315,16 +307,16 @@ export default function App() {
               >
                 <div>
                   <h3 className="text-2xl font-bold">
-                    Graduação em Engenharia da Computação
+                    Bachelor's Degree in Computer Engineering
                   </h3>
 
                   <p className="mt-2 text-zinc-600">
-                    Universidade de Ribeirão Preto
+                    University of Ribeirão Preto
                   </p>
                 </div>
 
                 <p className="text-sm font-bold">
-                  2024-2029
+                  2024–2029
                 </p>
 
               </Link>
@@ -339,7 +331,7 @@ export default function App() {
               >
                 <div>
                   <h3 className="text-2xl font-bold">
-                    Carreira em Engenharia de Agentes de IA
+                    AI Agent Engineering Career
                   </h3>
 
                   <p className="mt-2 text-zinc-600">
@@ -363,16 +355,16 @@ export default function App() {
               >
                 <div>
                   <h3 className="text-2xl font-bold">
-                    Cursos do Colégio Imperial de Londres
+                    Imperial College London Courses
                   </h3>
 
                   <p className="mt-2 text-zinc-600">
-                    Imperial College London - Coursera
+                    Imperial College London – Coursera
                   </p>
                 </div>
 
                 <p className="text-sm font-bold">
-                  2026 - Presente
+                  2026 – Present
                 </p>
 
               </Link>
@@ -388,11 +380,11 @@ export default function App() {
 
             <div>
               <p className="text-xs uppercase tracking-[0.4em] text-zinc-500 group-hover:text-zinc-300 mb-4">
-                Arquivo
+                Archive
               </p>
 
               <h3 className="text-3xl md:text-4xl font-black">
-                Ver todas as certificações
+                View all certifications
               </h3>
             </div>
 
@@ -403,7 +395,8 @@ export default function App() {
           </Link>
 
         </section>
-        {/* Produções, Projeto e Currículo */}
+
+        {/* Publications, Projects and Resume */}
         <section className="border-x-8 border-b-8 border-black">
 
           <div className="grid grid-cols-1 md:grid-cols-3">
@@ -413,15 +406,15 @@ export default function App() {
               className="group border-b md:border-b-0 md:border-r-4 border-black p-10 transition-all duration-300 hover:bg-black hover:text-white"
             >
               <p className="text-xs uppercase tracking-[0.4em] text-zinc-500 group-hover:text-zinc-300 mb-6">
-                Pesquisa
+                Research
               </p>
 
               <h3 className="text-3xl font-black leading-tight">
-                Produções
+                Publications
               </h3>
 
               <p className="mt-4 leading-relaxed opacity-80">
-                Artigos, estudos, produção científica e pesquisa em andamento.
+                Articles, studies, scientific production, and ongoing research.
               </p>
             </a>
 
@@ -430,15 +423,15 @@ export default function App() {
               className="group border-b md:border-b-0 md:border-r-4 md:border-l-4 border-black p-10 transition-all duration-300 hover:bg-black hover:text-white"
             >
               <p className="text-xs uppercase tracking-[0.4em] text-zinc-500 group-hover:text-zinc-300 mb-6">
-                Desenvolvimento
+                Development
               </p>
 
               <h3 className="text-3xl font-black leading-tight">
-                Projetos
+                Projects
               </h3>
 
               <p className="mt-4 leading-relaxed opacity-80">
-                Engenharia da Computação, Machine Learning e HPC.
+                Computer Engineering, Machine Learning, and HPC.
               </p>
             </Link>
 
@@ -447,37 +440,41 @@ export default function App() {
               className="group border-b md:border-b-0 border-black p-10 md:border-l-4 transition-all duration-300 hover:bg-black hover:text-white"
             >
               <p className="text-xs uppercase tracking-[0.4em] text-zinc-500 group-hover:text-zinc-300 mb-6">
-                Profissional
+                Professional
               </p>
 
               <h3 className="text-3xl font-black leading-tight">
-                Currículo
+                Resume
               </h3>
 
               <p className="mt-4 leading-relaxed opacity-80">
-                Experiência acadêmica e conquistas.
+                Academic experience and achievements.
               </p>
             </a>
+
           </div>
 
         </section>
-        {/* Rodapé */}
+
+        {/* Footer */}
         <section className="flex flex-col md:flex-row">
 
           <div className="w-full md:w-1/2 border-l-8 border-r-4 border-b-8 border-black p-10">
 
             <p className="text-xs uppercase tracking-[0.4em] text-zinc-500 mb-5">
-              Contato
+              Contact
             </p>
 
             <div className="space-y-3 flex flex-col text-bold text-lg text-shadow-zinc-600 tracking-[0.1em]">
+
               <a href="https://github.com/LORENZOCIRCELLI" className="text-lg">
-                Github
+                GitHub
               </a>
 
               <a href="https://www.linkedin.com/in/lorenzocalabresecircelli/" className="text-lg">
                 LinkedIn
               </a>
+
             </div>
 
           </div>
@@ -491,6 +488,7 @@ export default function App() {
           </div>
 
         </section>
+
       </div>
     </div>
   )
