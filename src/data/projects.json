@@ -1,0 +1,28 @@
+[
+  {
+    "id": "arduino-system",
+    "title": "Arduino Purchase System",
+    "description": "RFID, LCD and embedded interaction simulation",
+    "updates": [
+      {
+        "date": "2026-05-20",
+        "content": "Implementação inicial do sistema com RFID funcionando."
+      },
+      {
+        "date": "2026-05-25",
+        "content": "Adicionado suporte a LCD e melhorias no fluxo de compra."
+      }
+    ]
+  },
+  {
+    "id": "banking-api",
+    "title": "Banking System API",
+    "description": "Spring Boot backend with authentication and roles",
+    "updates": [
+      {
+        "date": "2026-05-10",
+        "content": "Criação inicial das entidades e autenticação JWT."
+      }
+    ]
+  }
+]
