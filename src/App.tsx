@@ -79,15 +79,15 @@ export default function App() {
                 </p>
               </div>
 
-              <div className="group border-b border-black py-5 cursor-pointer transition-all duration-300 hover:bg-black hover:text-white px-4 -mx-4">
+              <a href="https://github.com/LORENZOCIRCELLI/SubnauticaPDAPlus" className="group border-b border-black py-5 cursor-pointer transition-all duration-300 hover:bg-black hover:text-white px-4 -mx-4">
                 <h3 className="text-2xl font-bold">
-                  Estação Metereológica IoT
+                  SubnauticaPDAPlus
                 </h3>
 
                 <p className="text-sm opacity-70 mt-1">
-                  Embedded systems with IoT and real-time monitoring
+                  Software em Java para Auxiliar no Jogo Subnautica
                 </p>
-              </div>
+              </a>
 
               <div className="group border-b border-black py-5 cursor-pointer transition-all duration-300 hover:bg-black hover:text-white px-4 -mx-4">
                 <h3 className="text-2xl font-bold">
