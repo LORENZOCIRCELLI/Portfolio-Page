@@ -1,0 +1,61 @@
+[
+  {
+    "id": "siicusp-2026",
+    "title": "SIICUSP 2026",
+    "workTitle": "Predição de impacto estrutural de polimorfismos em regiões ITIM por aprendizado de máquina baseado em descritores derivados de dinâmica molecular",
+    "date": "2026",
+    "participation": "Apresentação de pôster",
+    "description": "Estudo de descritores de dinâmica molecular e redes neurais como etapa preliminar para investigar alterações estruturais associadas a polimorfismos em regiões ITIM.",
+    "photos": [
+      {
+        "src": "/events/siicusp-2026/fotos/apresentacao-01.jpeg",
+        "alt": "Lorenzo ao lado do pôster sobre dinâmica molecular e aprendizado de máquina no SIICUSP 2026",
+        "caption": "Apresentação do trabalho no SIICUSP 2026."
+      },
+      {
+        "src": "/events/siicusp-2026/fotos/apresentacao-02.jpeg",
+        "alt": "Lorenzo explicando os resultados do pôster durante a apresentação no SIICUSP 2026",
+        "caption": "Discussão dos resultados durante a apresentação."
+      }
+    ],
+    "posterUrl": "/events/siicusp-2026/poster.pdf",
+    "posterPreview": "/events/siicusp-2026/poster-preview.webp"
+  },
+  {
+    "id": "conic-2026-guardioes-do-planeta",
+    "title": "CONIC 2026 · Guardiões do Planeta",
+    "workTitle": "Jogos virtuais educativos como ferramenta de sensibilização ambiental para crianças do ensino infantil e fundamental",
+    "date": "2026",
+    "participation": "Apresentação de pôster",
+    "description": "Desenvolvimento de Guardiões do Planeta, um jogo educativo em Unity e C# com uma primeira missão sobre coleta seletiva e destinação de resíduos, relacionada aos ODS 11 e 12.",
+    "photos": [
+      {
+        "src": "/events/conic-2026/guardioes-do-planeta/fotos/apresentacao.jpeg",
+        "alt": "Lorenzo ao lado do pôster do jogo Guardiões do Planeta no CONIC 2026",
+        "caption": "Apresentação de Guardiões do Planeta no CONIC 2026."
+      }
+    ],
+    "posterUrl": "/events/conic-2026/guardioes-do-planeta/poster.pdf",
+    "posterPreview": "/events/conic-2026/guardioes-do-planeta/poster-preview.webp"
+  },
+  {
+    "id": "conic-2026-fpga",
+    "title": "CONIC 2026 · FPGA",
+    "workTitle": "Implementação de uma rede neural para reconhecimento de dígitos manuscritos em FPGA DE10-Lite",
+    "date": "2026",
+    "participation": "Apresentação de pôster",
+    "description": "Treinamento de uma rede neural para reconhecer dígitos manuscritos e implementação da inferência em uma FPGA DE10-Lite, com conversão do modelo para ponto fixo.",
+    "photos": [],
+    "photoNote": "Não há registro fotográfico desta apresentação.",
+    "posterUrl": "/events/conic-2026/fpga/poster.pdf",
+    "posterPreview": "/events/conic-2026/fpga/poster-preview.webp"
+  },
+  {
+    "id": "bsb-2026",
+    "title": "BSB 2026",
+    "date": "2026",
+    "participation": "Em breve",
+    "description": "Minha próxima participação será no BSB 2026.",
+    "mediaNote": "O pôster e as fotos serão adicionados após a participação."
+  }
+]
